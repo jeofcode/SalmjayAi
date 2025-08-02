@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salmjay AI Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <h2>💗 Salmjay AI 💗</h2>
+    <div id="chat-box"></div>
+    <input type="text" id="user-input" placeholder="Magtanong kay Salmjay...">
+    <button onclick="sendMessage()">Send</button>
+    <button onclick="toggleMusic()">🎵 Toggle Music</button>
+  </div>
+
+  <!-- Background music -->
+  <audio id="bg-music" autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
