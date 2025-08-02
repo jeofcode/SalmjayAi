@@ -14,7 +14,7 @@ function sendMessage() {
   const aiDiv = document.createElement("div");
   aiDiv.classList.add("chat-message");
   aiDiv.innerHTML = `
-    <img src="https://i.imgur.com/LXxIxmG.jpg" alt="Salmjay">
+    <img src="FB_IMG_1754147845000.jpg" alt="Salmjay">
     <div class="bubble">${getResponse(userInput)}</div>
   `;
   chatBox.appendChild(aiDiv);
